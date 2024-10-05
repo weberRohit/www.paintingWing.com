@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #feffce;
+}
+
+header{
+    position: relative;
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    background-color: #e0c75b;
+}
+.logo img{
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    padding-left: 2rem;
+    z-index: 999;
+}
+.element1{
+   position: absolute;
+   top: 0.01rem;
+    left: 200px;
+    width: 300px;
+    height: 1.5rem;
+    background-color: #292929;
+}
+.headerDesp{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.element2{
+    position: absolute;
+    top: 7.9rem;
+    right: 0px;
+    width: 300px;
+    height: 1.5rem;
+    background-color: #292929;
+}
+.headerDesp h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #292929;
+    font-weight: 600;
+}
+
+
+.pIrule{
+    margin: 3vw;
+}
+
+
+.header{
+    margin-left: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 4vw;
+}
+.sameDes{
+    font-size: 2.3vw;
+    color: #000000;
+    font-family:sans-serif;
+    font-weight: 500;
+    margin-left: 1rem;
+    padding: 1.5vh;
+    text-align: left;
+}
+.subHdr{
+    margin-left: 1rem;
+    font-size: 3.5vw;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    padding-top: 1rem;
+}
